@@ -25,6 +25,8 @@ using namespace std;
 #define LLA(x) x.rbegin(), x.rend()
 #define SORT(v) sort(ALL(v))
 #define inf   1e15
+#define FF first
+#define SS second
 #define mod   1000000007
 #define PI acos(-1.0)
 string sss="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
