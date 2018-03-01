@@ -9,6 +9,7 @@ using namespace std;
 #define vl vector<ll>
 #define sf(zz) scanf("%I64d",&zz)
 #define sf2(zz,zzz) scanf("%I64d %I64d",&zz,&zzz)
+#define chk puts("oka")
 #define sf3(zz,zzz,zzzz) scanf("%I64d %I64d %I64d",&zz,&zzz,&zzzz)
 #define fast ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 #define read freopen("in.txt","r",stdin)
