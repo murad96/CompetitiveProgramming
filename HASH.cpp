@@ -4,8 +4,8 @@
 using namespace std;
 struct HashString {
     ll Hash[2][N], Pow[2][N];
-    const int P[2] = {31, 37};
-    const ll Mod[2] = {1000000007ll, 1000000009ll};
+    const int P[2] = {37, 41};
+    const ll Mod[2] = {4222234741ll, 2038074743ll};
     void GeneratePower() {
         Pow[0][0] = Pow[1][0] = 1;
         for (int i = 1; i < N; i++) {
@@ -32,3 +32,10 @@ struct HashString {
 int main(){
 
 }
+/* Some Big prime list
+6,472,639,867
+6,472,731,227
+8,747,578,061
+22,813,786,057
+47,068,228,421
+*/
